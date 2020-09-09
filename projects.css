@@ -1,0 +1,13 @@
+#projects {
+  height: 100%;
+}
+
+.project-item {
+  margin-bottom: 5rem;
+}
+
+.project-logo {
+  font-size: 20px;
+  color: var(--text-secondary);
+  margin-right: 1rem;
+}

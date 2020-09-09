@@ -1,0 +1,58 @@
+/* Small screens */
+@media only screen and (max-width: 900px) {
+  /*navbar*/
+  nav {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    transition: none;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  nav:hover .link-text {
+    display: none;
+  }
+
+  .nav-link {
+    justify-content: center;
+    transition: none;
+  }
+  /*welcome*/
+  .line {
+    white-space: normal;
+    border-right: none;
+  }
+
+  .anim-typewriter {
+    animation: none;
+  }
+  /*contact*/
+  #contact {
+    margin-bottom: 20vh;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 900px) {
+  /*navbar*/
+  nav {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  nav:hover {
+    width: 16rem;
+  }
+
+  nav:hover .link-text {
+    display: inline;
+  }
+  /*welcome*/
+  #welcome h1, .line {
+    margin-left: 5%;
+  }
+}

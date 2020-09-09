@@ -1,0 +1,68 @@
+@import "./welcome.css";
+@import "./navbar.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./media.css";
+@import "./contact.css";
+@import "./interests.css";
+
+:root {
+  font-size: 16px;
+  --text-primary: #ececec;
+  --text-secondary: #ececec88;
+  --text-gold: #a67d03;
+  --bg-main: #2a2b2e;
+  --bg-primary: #222326;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-primary);
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+a {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+
+.primary {
+  font-family: "Raleway", sans-serif;
+  color: var(--text-primary);
+  background: var(--text-secondary);
+  padding: 1px 4px;
+  border-radius: 5px;
+}
+
+.secondary {
+  color: var(--text-secondary);
+}
+

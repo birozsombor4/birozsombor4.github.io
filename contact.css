@@ -1,0 +1,16 @@
+#contact {
+ margin-top: 20vh;
+}
+
+#contact i {
+  color: var(--text-primary);
+}
+
+.contact-logo {
+  font-size: 40px;
+  margin: 20px 20px 20px 20px;
+}
+
+#contact i:hover {
+  color: var(--text-secondary);
+}
